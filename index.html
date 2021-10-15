@@ -5,26 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/formulaire.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/ea05a76d15.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Challenge covid fsociety</title>
 </head>
 <body>
 
 <main>
-    <header>
-
-    </header>
     <nav>
         <img src="images/login.png" alt="">
-              <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#">Lorem ipum</a></li>
-                <li><a href="#">Lorem ipum</a></li>
-                <li><a href="#">Lorem ipum</a></li>
-                <li><a href="#">Lorem ipum</a></li>
-                <li><a href="#">Lorem ipum</a></li>
-              </ul>
-            
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#">Lorem ipum</a></li>
+            <li><a href="#">Lorem ipum</a></li>
+            <li><a href="#">Lorem ipum</a></li>
+            <li><a href="#">Lorem ipum</a></li>
+            <li><a href="#">Lorem ipum</a></li>
+        </ul>
     </nav>
     <section class="connexion">
         <!-- Diallo connexion orange (html/css)-->
@@ -32,28 +34,49 @@
     <section class="formulaire">
     <form>
         <!-- Kebe html - Hcon  css-->
-        <h1>Bienvenue !</h1>
-        <h2>Connectez-vous</h2>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <input type="checkbox" name="rememberpwd" id="rememberpwd">
-        <a href="#">Mot de passe oublié ?</a>
-        <input type="submit" value="Connexion">
-        <h2>Se connecter avec</h2>
-        <div class="social">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
+        <div class="form-head">
+            <h1>Bienvenue !</h1>
+            <h2>Connectez-vous</h2>
         </div>
-        <div class="inscription">
-            <p>Vous n'avez pas de compte ?</p>
-            <a href="#">Inscrivez-vous maintenant!</a>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" 
+            placeholder="Saisisez votre adresse email">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" 
+            placeholder="Saisisez votre mot de passe">
+        <div class="checkbox">
+            <i class="material-icons" style="font-size:22px;color:rgb(104, 104, 104)">check_box_outline_blank</i>
+            <div class="label">
+                <p>Se souvenir de moi </p>
+                <a href="#">Mot de passe oublié ?</a>
+            </div>
+        </div>
+        <input type="submit" value="Connexion">
+        <div class="form-foot">
+            <p>Se connecter avec</p>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook"
+                    style="background-color:#3b5998;"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter" 
+                    style="background-color:#1DA1F2;"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-google"
+                    style="background-color:#DB4437;"></i>
+                </a>
+            </div>
+            <div class="inscription">
+                <p>Vous n'avez pas de compte ? 
+                <a href="#"> Inscrivez-vous maintenant!</a></p>
+            </div>
         </div>
     </form>
-    <div>
-        <img src="images/developer.png" alt="developer">
+    <div class="developer">
+        <div class="devimage">
+            <img src="images/developer.png" alt="developer">
+        </div>
     </div>
     </section>
 </main>
