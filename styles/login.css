@@ -20,9 +20,13 @@ ul {
     text-decoration: none;
   }
 img { 
-    float: left;
     width: 200px;
   }
   nav {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
     background-color: white;
+	padding: 0 4%;
   }

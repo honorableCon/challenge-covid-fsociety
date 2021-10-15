@@ -1,0 +1,163 @@
+@media screen and (max-width: 1280px)
+{
+.main{
+    font-size: 1.1em;
+    min-height: 100vh;
+}
+.connexion{
+    display: none;
+}
+nav{
+    height: 100px;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 4%;
+}
+nav .logo{
+    width: 12%;
+}
+nav ul{
+    display: none;
+}
+nav ul li a{
+    color: #EE752C;
+}
+nav .menu{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    justify-content: center;
+}
+#menu{
+    display: none;
+}
+#menu:checked ~ ul{
+    display: flex;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    top: 75px;
+    flex-direction: column;
+    width: 40%;
+}
+#menu:checked ~ ul li{
+    border-bottom: #034f89 2px solid;
+}
+#menu:checked ~ ul li:hover{
+    background-color: #EE752C;
+}
+#menu:checked ~ ul a:hover{
+    color: #fff;
+}
+
+.formulaire{
+    flex-direction: column-reverse;
+    align-content: center;
+}
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 70%;
+    padding: 3%;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 0px; 
+}
+
+.developer{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.developer img{
+    width: 75%;
+    align-self: center;
+    margin-bottom: -10px;
+}
+
+
+[type=password], [type=email]{
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 6px;
+    padding: 2%;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 6px;
+}
+
+[type=submit], [type=submit]:hover{
+    align-self: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+input::placeholder {  
+    font-size: 1.2em;
+    color: grey;
+    /*font-weight: bold;*/
+}
+  
+.form-head{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-head h1{
+    font-weight : bold;
+    color: #4385F5;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.form-head h2{
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.inscription{
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-foot{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    /*background-color: red;*/
+    justify-content: space-between;
+    height: 150px;
+}
+
+
+
+
+.checkbox {
+    display: flex;
+    margin: 8px 0;
+}
+.checkbox .label{
+    margin-left: 16px;
+}
+.checkbox p{
+    margin-bottom: 10px;
+}  
+
+
+
+
+}
