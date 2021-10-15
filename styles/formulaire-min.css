@@ -47,6 +47,7 @@ nav .menu{
 }
 #menu:checked ~ ul li{
     border-bottom: #034f89 2px solid;
+    padding: 10px 0;
 }
 #menu:checked ~ ul li:hover{
     background-color: #EE752C;
