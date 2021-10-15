@@ -1,0 +1,121 @@
+@media screen and (max-width: 1280px)
+{
+.formulaire{
+    flex-direction: column-reverse;
+}
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 50%;
+    padding: 3%;
+    margin-left: 6%;
+    border-radius: 8px;
+    margin-top: -10vh;
+}
+
+.developer{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: red;*/
+    align-content: center;
+}
+
+
+[type=password], [type=email]{
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 6px;
+    padding: 2%;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 6px;
+}
+
+[type=submit], [type=submit]:hover{
+    align-self: center;
+    width: 100%;
+}
+
+input::placeholder {  
+    font-size: 1.2em;
+    color: grey;
+    /*font-weight: bold;*/
+}
+  
+.form-head{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-head h1{
+    font-weight : bold;
+    color: #4385F5;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.form-head h2{
+    color: rgb(87, 87, 87);
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.inscription{
+    display: flex;
+    color: rgb(48, 48, 48);
+}
+
+.form-foot{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    /*background-color: red;*/
+    color: rgb(87, 87, 87);
+    justify-content: space-between;
+    height: 150px;
+}
+
+
+
+.developer img{
+    width: 200px;
+    margin-top: -20px;
+}
+
+.checkbox {
+    display: flex;
+    margin: 8px 0;
+}
+.checkbox .label{
+    margin-left: 16px;
+}
+.checkbox p{
+    margin-bottom: 10px;
+}  
+#checkcase{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+} 
+
+#checkcase:checked{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    background-color: red;
+} 
+
+
+
+
+}

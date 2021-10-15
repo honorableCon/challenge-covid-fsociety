@@ -34,7 +34,7 @@ a{
     padding: 3%;
     margin-left: 6%;
     border-radius: 8px;
-    margin-top: -90px;
+    margin-top: -10vh;
 }
 
 .developer{
@@ -53,7 +53,7 @@ a{
     height: 55px;
     border: none;
     border-radius: 6px;
-    padding: 2%;
+    padding: 3%;
     margin: 20px 0;
     box-shadow: rgba(0, 0, 0, 0.274) 0px 0px 6px;
 }
@@ -94,6 +94,7 @@ input::placeholder {
     font-size: 1.2em;
     color: grey;
     /*font-weight: bold;*/
+    margin-left: 10px;
 }
   
 .form-head{
@@ -143,7 +144,7 @@ input::placeholder {
 
 .connexion{
     background-color: #EE752C;
-    height: 200px;
+    height: 15vh;
 }
 
 .checkbox {
@@ -160,8 +161,7 @@ input::placeholder {
     width: 20px;
     height: 20px;
     margin-top: 3px;
-    color: red;
-    background-color: red;
+    cursor: pointer;
 } 
 
 #checkcase:checked{
