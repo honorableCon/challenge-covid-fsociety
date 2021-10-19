@@ -1,0 +1,128 @@
+
+:root{
+    --bg-color : #034F89;
+    --primary-color : #EE752C;
+}
+ol {
+    list-style-type : none;
+}
+main{ 
+    font-family: fantasy;
+}
+/* ================================== quiz pack =========================================== */
+    .pack-quiz {
+        background-color: rgba(211, 211, 211, 0.479);
+        padding: 3% 3%;
+        color: var(--bg-color);
+        font-size: 0.7em;
+    }
+
+    .pack-quiz ol{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        counter-reset: numerotation;
+    }
+
+    .pack-quiz ol li::before {
+        width: 30px; height: 30px;
+        font-weight: bold;
+        counter-increment: numerotation;
+        content: counter(numerotation) " ";
+        border: solid 2px var(--bg-color);
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+    }
+    .active::before {
+        background-color: var(--bg-color);
+        color: #fff;
+    }
+
+    .pack-quiz a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+/*  =============================== check pack ==================================== */
+
+.pack-check{
+    background-color: var(--primary-color);
+    color: #fff;
+
+    font-size: 0.8em;
+    padding: 20px 15px;
+    border-radius: 1.3rem;
+}
+
+.pack-check form{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.pack-check .check{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 15px 15px 15px;
+}
+
+.pack-check .check [type="radio"]{
+    opacity: 1;
+}
+
+
+/* ====================================== question ======================================= */
+
+.question{
+    font-size: 0.6em;
+    text-align: center;
+    line-height: 2;
+    margin: 20px auto;
+}
+
+.question::before{
+    display: block;
+    content: "";
+    background-color: var(--primary-color);
+    width: 50%;
+    margin: 30px auto 15px;
+    height: 2px;
+}
+.question h2{
+    color: var(--bg-color);
+}
+
+.question p{
+    font-weight: bold;
+}
+
+
+/* ===================================== next button =================================== */
+
+.next-button{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    font-size: 0.7em;
+    display: flex;
+    background-color: var(--bg-color);
+    color: #fff;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+.next-button .next{
+    margin-right: 10px;
+}
+
+.next-button .line{
+    margin: 0px;
+    background-color: #fff;
+    font-size: 0.3em;
+}
+.next-button div{
+    margin: 10px;
+}
