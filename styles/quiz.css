@@ -116,6 +116,12 @@ main{
 }
 .next-button .next{
     margin-right: 10px;
+    cursor: pointer;
+}
+.next-button .next:active{
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .next-button .line{
