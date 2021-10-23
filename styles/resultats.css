@@ -35,14 +35,22 @@
     padding: 12px;
     flex-wrap: wrap;
     overflow: hidden;
+    margin: 86px;
 }
 
 .active{
     margin: 86px;
     width: 243px;
     height: 243px;
+    border: 4px solid black;
     border-color: #00FF00;
     color: #00FF00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    overflow: hidden;
 }
 
 .aurevoir{

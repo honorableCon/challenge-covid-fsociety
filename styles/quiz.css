@@ -58,8 +58,10 @@ main{
 }
 
 .pack-check form{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /*display: grid;
+    grid-template-columns: repeat(4, 1fr);*/
+    display: flex;
+    justify-content : space-around;
 }
 
 .pack-check .check{
